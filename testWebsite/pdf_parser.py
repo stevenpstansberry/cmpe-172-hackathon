@@ -35,7 +35,4 @@ def parse_pdf(pdf_path, max_tokens=4096):
     
     return truncated_text
 
-pdf_path = 'SOFI-2023.pdf'  # Replace with your actual PDF path
-formatted_text = parse_pdf(pdf_path, max_tokens=4096)  # Adjust the max_tokens as needed
-print(formatted_text)
 

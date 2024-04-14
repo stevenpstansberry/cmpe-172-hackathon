@@ -4,7 +4,7 @@ from pdf_parser import *
 
 pdf_path = 'SOFI-2023.pdf'  
 
-formatted_text_for_gpt = parse_pdf(pdf_path)
+formatted_text = parse_pdf(pdf_path, max_tokens=4096) 
 #print(formatted_text_for_gpt)
 
 # Init openAI API session

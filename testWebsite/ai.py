@@ -17,7 +17,7 @@ List major Food insecurity reason in 2023,
  Explain increase prices impact on food security. 
  Your source of knowledge is from the following text, 
  and you will construct your responses from this text:
-{formatted_text_for_gpt} 
+{formatted_text} 
 """
 
 completion = client.chat.completions.create(
